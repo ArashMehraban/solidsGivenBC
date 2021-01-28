@@ -74,7 +74,7 @@ PetscErrorCode BCClamp(PetscInt dim, PetscReal loadIncrement,
               //Store computed Translation and Rotation to be added to Givens values
   PetscScalar trx, try, trz;
 
-  //  Translate                   Rotate                                       
+  // Translate                   Rotate                                       
   trx = lx  +  s*(-kz*y + ky*z) + (1-c)*(-ky*ky+kz*kz*x + kx*ky*y + kx*kz*z) ;
   try = ly  +  s*(kz*x + -kx*z) + (1-c)*(kx*ky*x - (kx*kx+kz*kz)*y + ky*kz*z) ;
   trz = lz  +  s*(-ky*x + kx*y) + (1-c)*(kx*kz*x + ky*kz*y - (kx*kx+ky*ky)*z);
