@@ -131,6 +131,7 @@ struct AppCtx_private {
   PetscScalar   forcingVector[3];
 };
 
+
 // Problem specific data
 // *INDENT-OFF*
 typedef struct {
