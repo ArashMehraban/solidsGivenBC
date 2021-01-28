@@ -4,8 +4,6 @@
 
 (999 : left, 998 : right, 997 : front, 996 : back, 995 : top, 994: bottom) 
 
-Besides these two small changes in 
-
 How to run with Givens rotation (10 radians):
 
 degree 1:
