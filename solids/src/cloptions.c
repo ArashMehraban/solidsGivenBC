@@ -95,7 +95,7 @@ PetscErrorCode ProcessCommandLineOptions(MPI_Comm comm, AppCtx appCtx) {
   for (PetscInt i = 0; i < appCtx->bcClampCount; i++) {
     // Translation vector
     char optionName[25];
-    for (PetscInt j = 0; j < 7; j++)
+    for (PetscInt j = 0; j < 11; j++)
       appCtx->bcClampMax[i][j] = 0.;
 
     snprintf(optionName, sizeof optionName, "-bc_clamp_%d_translate",
