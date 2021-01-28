@@ -18,6 +18,14 @@ degree 2 and above divereges:
 
 Modification to the Code:
 
-`elasticity.h`: line 127
+`solids/elasticity.h`: line 127
+
 from `PetscScalar   bcClampMax[16][7];` to `PetscScalar   bcClampMax[16][11];`
-`
+
+`solids/src/cloptions.c` : line 98
+
+from `for (PetscInt j = 0; j < 7; j++)` to `for (PetscInt j = 0; j < 11; j++)`
+
+and added lines 127 - 134
+
+and modified `solids/src/boundary.c`
