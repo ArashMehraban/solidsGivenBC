@@ -2,7 +2,7 @@
 
 ![Beam with 6 sideset](test.png)
 
-(999 : left, 98 : right, 997 : front, 996 : back, 995 : top, 994: bottom) 
+(999 : left, 998 : right, 997 : front, 996 : back, 995 : top, 994: bottom) 
 
 How to run:
 
