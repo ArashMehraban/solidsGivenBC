@@ -4,7 +4,7 @@
 
 (999 : left, 998 : right, 997 : front, 996 : back, 995 : top, 994: bottom) 
 
-How to run:
+How to run with Givens rotation (10 radians):
 
 degree 1:
 
